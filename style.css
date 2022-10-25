@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+.head{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.head p{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.713);
+}
+
+body {
+    /* margin: 10px 20px; */
+    /* background: white; */
+    background: rgba(181, 241, 239, 0.241);
+    width: 1200px;
+    
+}
+.container
+{
+    /* border: 1px solid red; */
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.068);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background: rgb(200 233 232 / 12%);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 90px;    
+    margin-right: 50px;    
+    
+}
+.boxIn{
+    /* border: 1px solid black; */
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(200 233 232 / 33%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.preference{
+    margin-top: 10px;
+}
+
+.algorithms-form{
+    margin-top: 10px;
+}
+
+.boxOut{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    padding:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgb(200 233 232 / 33%);
+}
+.boxOut p{
+    font-size: 20px;
+}
+
+.instructions {
+    font-size: 14px;
+    margin: 10px 20px;
+    color:rgba(0, 0, 0, 0.713);
+}
+#data_fcfs,#data_sjf,#data_rr,#data_pnp,#data_pp,#data_srtf{
+    display: none;
+}
+
+.AlgoDetails{
+    
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 26px;
+}
+.head h1{
+    font-size: 40px;
+}
+select{
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 20px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background: rgba(181, 241, 239, 0.936);
+    
+}
+
+.AlgoDetails ul li{
+    font-size: 20px;
+    padding: 2px;
+}
+.AlgoDetails h3{
+    font-size:25px;
+}
+
+
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+}
+
+td {
+    padding: 0 2px;
+}
+
+table input {
+    text-align: center;
+    border: none;
+    width: 100px;
+}
+
+.process-btn {
+    height: 5px;
+    
+}
+
+#preloader{
+    background: #000 url(loader.gif) no-repeat center;
+    background-size: 15%;
+    height:100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.process-btn button {
+    height: 20px;
+    width: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+}
+#priority-toggle-btn{
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(235, 154, 154, 0.866);
+    color:#000;
+    border: 1px solid #e6ebf1;
+
+}
+.btnbg{
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(235, 154, 154, 0.866);
+    color:#000;
+    border: 1px solid #e6ebf1;
+}
+.btnbg:hover{
+    background: rgba(244, 105, 105, 0.866);
+}
+#priority-toggle-btn:hover{
+    background: rgba(244, 105, 105, 0.866);
+}
+
+
+.hide {
+    display: none;
+}
+
+button {
+    padding: 5px;
+}
+
+.schedule-table-process,
+.schedule-table-process td {
+    border: 1px solid black;
+}
+
+.schedule-table-process {
+    margin-left: 6px;
+}
+
+.schedule-table-time,
+.schedule-table-time td {
+    text-align: left;
+    border: 1px solid white;
+}
+
+#algorithm-chart-div {
+    width: 80%;
+    height: 50%;
+}
+
+#round-robin-chart-div {
+    height: 40%;
+    width: 80%;
+}
+
+#gantt-chart {
+    height: 250px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#timeline-chart {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 250px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#priority-toggle-btn {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0;
+    width: 60px;
+}
+
+.preferences {
+    list-style: none;
+}
+
+thead {
+    font-weight: bold;
+}
+
+#time-log-table-div {
+    margin-top: 10vh;
+    position: relative;
+}
+
+.time-log-table {
+    width: 10%;
+    position: absolute;
+}
+
+#remain-table {
+    left: 7.5%;
+}
+
+#ready-table {
+    left: 32.5%;
+}
+
+#running-table {
+    right: 32.5%;
+}
+
+#block-table {
+    left: 45%;
+    top: 8vw;
+}
+
+#terminate-table {
+    right: 7.5%;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 100px;
+}
+
+#remain-ready {
+    left: 20.5%;
+    top: -62px;
+}
+
+#ready-running {
+    transform: rotate(180deg);
+    left: 47%;
+    top: -15px;
+    font-size: 80px;
+}
+
+#running-ready {
+    left: 47%;
+    top: -60px;
+    font-size: 80px;
+}
+
+#running-terminate {
+    right: 20.5%;
+    top: -62px;
+}
+
+#running-block {
+    transform: rotate(135deg);
+    left: 52%;
+    top: 20px;
+}
+
+#block-ready {
+    transform: rotate(225deg);
+    left: 40%;
+    top: 20px;
+}
+
+@media screen and (max-width : 700px){
+    body{
+        width: auto;
+    }
+    .container{
+        width: 100%;
+        display: inline-block;
+        margin-left: 42px;
+        margin-top: -10px;
+    }
+    .boxIn{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+    .boxOut{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+    .head{
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .head h1{
+        font-size: 30px;        
+    }
+    .head p{
+        font-size: 14px;
+    }
+    .AlgoDetails{
+        width: 100%;
+    }
+    .AlgoDetails h3{
+        font-size: 20px;
+    }
+    .AlgoDetails ul li{
+        font-size: 16px;
+    }
+    select{
+        width: 100%;
+    }
+    .process-btn{
+        width: 100%;
+    }
+    .process-btn button{
+        width: 100%;
+    }
+    .btnbg{
+        width: 100%;
+    }
+    #priority-toggle-btn{
+        width: 100%;
+    }
+    #priority-toggle-btn{
+        font-size: 12px;
+    }
+    #output{
+        width: auto;
+    }
+       
+
+}
