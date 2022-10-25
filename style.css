@@ -327,7 +327,7 @@ thead {
         width: auto;
     }
     .container{
-        width: 100%;
+        width: auto;
         display: inline-block;
         margin-left: 42px;
         margin-top: -10px;
