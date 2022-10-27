@@ -109,9 +109,9 @@ select{
     background: rgba(181, 241, 239, 0.936);
     
 }
-#context-switch{
+/* #context-switch{
     display: none;
-}
+} */
 
 .AlgoDetails ul li{
     font-size: 20px;
