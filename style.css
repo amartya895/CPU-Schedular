@@ -109,6 +109,9 @@ select{
     background: rgba(181, 241, 239, 0.936);
     
 }
+#context-switch{
+    display: none;
+}
 
 .AlgoDetails ul li{
     font-size: 20px;
@@ -324,7 +327,7 @@ thead {
     top: 20px;
 }
 
-@media screen and (max-width : 700px){
+@media screen and (max-width :700px){
     body{
         width: auto;
     }
