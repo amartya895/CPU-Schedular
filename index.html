@@ -40,53 +40,6 @@
         </li>
       </ul>
     </div>
-    <div id="data_sjf">
-      <h3>Characteristics of SJF:</h3>
-      <ul>
-        <li>
-          Shortest Job first has the advantage of having a minimum average
-          waiting time among all scheduling algorithms.
-        </li>
-        <li>It is a Greedy Algorithm.</li>
-        <li>
-          It may cause starvation if shorter processes keep coming. This
-          problem can be solved using the concept of ageing.
-        </li>
-        <li>
-          It is practically infeasible as Operating System may not know burst
-          time and therefore may not sort them. 
-        </li>
-      </ul>
-    </div>
-    <div id="data_srtf">
-      <h3></h3>
-      <ul>
-        <li>A variation of the SJF. New jobs can arrive in the wait queue while
-          another job is still running. If the remaining time of the running job
-          is larger than that of the newly-arrived job, the running job is
-          preempted and returned to the wait queue while the next shortest
-          job is processed.</li>
-        <li>Very large variance of response times: long processes wait even
-          longer than under SPF</li>
-        <li>Not always optimal
-          <ul style="margin-left:10px;" >
-            <li>Short incoming process can preempt a running process that is
-              near to completion</li>
-              <li>Context-switching overhead can become significant</li>
-          </ul>
-        </li>
-        
-      </ul>
-    </div>
-    <div id="data_rr">
-      <h3>Characteristics of Round Robin:</h3>
-      <ul>
-        <li>Round-robin is cyclic in nature, so starvation doesn't occur.</li>
-        <li>Round-robin is a variant of first come, first served scheduling.</li>
-        <li>No priority, special importance is given to any process or task.</li>
-        <li>RR scheduling is also known as Time slicing Scheduling.</li>
-      </ul>
-    </div>
     <div id="data_pnp">
       <h3>Characteristics of Non-Preemptive:</h3>
       <ul>
