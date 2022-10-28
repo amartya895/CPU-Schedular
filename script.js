@@ -11,9 +11,11 @@ $(document).ready(function () {
   });
 });
 
+// loader 
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function () {
   loader.style.display = "none";
+  myVar = setTimeout(showPage, 2500);
 });
 
 let priorityPreference = 1; //priority preferences change
