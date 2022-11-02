@@ -97,7 +97,7 @@ function addProcess() {
 
                       `;
   let rowHTML2 = `
-                           <td class="process-time cpu process-input"><input type="number" min="0" step="1" value="1"> </td>
+                           <td class="process-time cpu process-input"><input type="number" min="0" step="1" value="0"> </td>
                       `;
   let table = document.querySelector(".main-table tbody");
   table.insertRow(table.rows.length).innerHTML = rowHTML1;
