@@ -92,7 +92,7 @@ function addProcess() {
   process++;
   let rowHTML1 = `
                           <td class="process-id" rowspan="2">P${process}</td>
-                          <td class="priority hide" rowspan="2"><input type="number" min="1" step="1" value="1"></td>
+                          <td class="priority hide" rowspan="2"><input type="number" min="0" step="1" value="1"></td>
                           <td class="arrival-time" rowspan="2"><input type="number" min="0" step="1" value="0"> </td>
 
                       `;
